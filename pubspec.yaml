@@ -1,8 +1,7 @@
 name: custom_switch_lib
 description: Custom switch created.
 version: 0.0.1
-author: Swapnil Daware <swapnildaware7@gmail.com>
-homepage:
+homepage: https://github.com/SwappySD/FlutterPackages.git
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
