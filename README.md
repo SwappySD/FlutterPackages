@@ -2,57 +2,9 @@
 
 custom_switch_lib Package
 
-Sample code 
+How to use ? 
 
-import 'package:custom_switch_lib/custom_switch_lib.dart';
-import 'package:flutter/material.dart';
-
-void main() {
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Custom Switch Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: MyHomePage(title: 'Flutter Custom Switch Demo Home Page'),
-    );
-  }
-}
-
-class MyHomePage extends StatefulWidget {
-  MyHomePage({Key? key, required this.title}) : super(key: key);
-  final String title;
-
-  @override
-  _MyHomePageState createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  String status = "In-Active";
-  bool isEnable = false;
-  bool isActiveValue = false;
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text(
-              '$status',
-            ),
-            SizedBox(
-              height: 10,
-            ),
+================================================================ 
             CustomSwitch(
               activeColor: Colors.blue,
               inactiveColor: Colors.grey,
@@ -77,12 +29,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 });
               },
             )
-          ],
-        ),
-      ),
-    );
-  }
-}
+================================================================ 
 
 
 ## Getting Started
