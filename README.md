@@ -3,8 +3,7 @@
 custom_switch_lib Package
 
 How to use ? 
-
-================================================================ 
+```
             CustomSwitch(
               activeColor: Colors.blue,
               inactiveColor: Colors.grey,
@@ -29,8 +28,7 @@ How to use ?
                 });
               },
             )
-================================================================ 
-
+```
 
 ## Getting Started
 
